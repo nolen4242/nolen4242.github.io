@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Nolen Smith</title>
+<meta name="description" content="Side projects and technical work by Nolen Smith. Fantasy baseball AI, enterprise SSO migration, identity automation, and more.">
+
+<!-- Fonts -->
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">NS</a>
+    <div class="nav-links">
+      <a href="work.html" class="nav-link">Work</a><span class="nav-comma">,</span>
+      <a href="equime.html" class="nav-link">equiMe</a><span class="nav-comma">,</span>
+      <a href="projects.html" class="nav-link active">Projects</a><span class="nav-comma">,</span>
+      <a href="about.html" class="nav-link">About</a><span class="nav-period">.</span>
+    </div>
+    <div class="nav-right">
+      <div class="nav-clock" id="navClock" title="Austin, TX local time">
+        <span class="clock-label">Austin, TX</span>
+        <span class="clock-time" id="clockTime">--:--:-- --</span>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+        <svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="theme-icon moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="work.html" class="mobile-link">Work</a>
+    <a href="equime.html" class="mobile-link">equiMe</a>
+    <a href="projects.html" class="mobile-link">Projects</a>
+    <a href="about.html" class="mobile-link">About</a>
+  </div>
+</nav>
+
+<!-- OTHER PROJECTS -->
+<section class="section section-page" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title reveal">Other Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+      <a href="https://github.com/nolen4242/fantasy-baseball-draft-helper" target="_blank" rel="noopener noreferrer" class="project-card reveal">
+        <div class="project-card-inner">
+          <div class="project-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3 class="project-name">Fantasy Baseball Draft Assistant</h3>
+          <p class="project-desc">AI-powered draft helper for the Bob Uecker Imaginary Baseball League. Weighted recommendation engine using position scarcity, team needs, and projected value.</p>
+          <div class="tech-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">AI/ML</span>
+          </div>
+          <span class="project-link-indicator">
+            View on GitHub
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <div class="project-card reveal">
+        <div class="project-card-inner">
+          <div class="project-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3 class="project-name">Koch Intern Challenge</h3>
+          <p class="project-desc">Led intern team to build a predictive growth web app for the Annual Koch Intern Challenge Case Study. Recognized across Koch subsidiaries.</p>
+          <div class="tech-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Flask</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card-inner">
+          <div class="project-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="project-name">PingOne SSO Migration</h3>
+          <p class="project-desc">Led enterprise-scale migration from PingFederate to PingOne SaaS with identity verification and context-based risk analysis.</p>
+          <div class="tech-tags">
+            <span class="tag">PingOne</span>
+            <span class="tag">SSO</span>
+            <span class="tag">MFA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card-inner">
+          <div class="project-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+          </div>
+          <h3 class="project-name">Identity Automation Pipelines</h3>
+          <p class="project-desc">Automated cloud identity infrastructure across AWS, Azure, and GCP using Terraform, REST APIs, and Python.</p>
+          <div class="tech-tags">
+            <span class="tag">Terraform</span>
+            <span class="tag">Python</span>
+            <span class="tag">CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="footer-copy">&copy; 2026 Nolen Smith. All rights reserved.</p>
+    <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer" class="footer-attribution">
+      Created with Perplexity Computer
+    </a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

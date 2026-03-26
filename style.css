@@ -153,6 +153,12 @@ button {
   position: relative;
 }
 
+/* Page-level sections need top padding to clear fixed nav */
+.section-page {
+  padding-top: calc(var(--nav-height) + clamp(48px, 6vw, 96px));
+  min-height: calc(100vh - 80px);
+}
+
 .section-header {
   margin-bottom: var(--space-16);
 }
@@ -235,8 +241,12 @@ button {
               background var(--transition-interactive);
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
   color: var(--color-text);
+}
+
+.nav-link:hover {
   background: var(--color-surface-2);
 }
 
