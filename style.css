@@ -872,6 +872,10 @@ button {
 
 .equime-cta {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-3);
 }
 
 @media (max-width: 768px) {
