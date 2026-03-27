@@ -857,6 +857,19 @@ button {
   line-height: 1.55;
 }
 
+.equime-inline-link {
+  color: var(--color-primary);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(75, 168, 111, 0.4);
+  transition: text-decoration-color var(--transition-interactive);
+}
+
+.equime-inline-link:hover {
+  text-decoration-color: var(--color-primary);
+}
+
 .equime-cta {
   text-align: center;
 }
