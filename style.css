@@ -995,6 +995,68 @@ a.project-card {
 }
 
 /* ================================================
+   PROJECT DETAIL CARDS (full-width)
+   ================================================ */
+.projects-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.project-detail {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--space-8);
+  transition: border-color 0.3s var(--ease-out),
+              box-shadow 0.3s var(--ease-out);
+}
+
+.project-detail:hover {
+  border-color: var(--color-border-hover);
+  box-shadow: 0 0 40px var(--color-card-glow);
+}
+
+.project-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+  flex-wrap: wrap;
+}
+
+.project-detail-name {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.project-detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-primary);
+  transition: gap var(--transition-interactive);
+}
+
+.project-detail-link:hover {
+  gap: var(--space-3);
+}
+
+.project-detail-desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: var(--space-5);
+  max-width: 900px;
+}
+
+/* ================================================
    ABOUT
    ================================================ */
 .section-about {

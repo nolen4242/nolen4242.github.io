@@ -68,72 +68,72 @@
       <h2 class="section-title reveal">Personal Projects</h2>
     </div>
 
-    <div class="projects-grid">
-      <a href="https://github.com/nolen4242/fantasy-baseball-draft-helper" target="_blank" rel="noopener noreferrer" class="project-card reveal">
-        <div class="project-card-inner">
-          <div class="project-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          </div>
-          <h3 class="project-name">Fantasy Baseball Draft Helper</h3>
-          <p class="project-desc">AI-powered draft helper for the Bob Uecker Imaginary Baseball League. Weighted recommendation engine using position scarcity, team needs, and projected value.</p>
-          <div class="tech-tags">
-            <span class="tag">Python</span>
-            <span class="tag">Flask</span>
-            <span class="tag">scikit-learn</span>
-            <span class="tag">AI/ML</span>
-          </div>
-          <span class="project-link-indicator">
+    <div class="projects-detail-list">
+
+      <!-- Fantasy Baseball Draft Helper -->
+      <div class="project-detail reveal">
+        <div class="project-detail-header">
+          <h3 class="project-detail-name">Fantasy Baseball Draft Helper</h3>
+          <a href="https://github.com/nolen4242/fantasy_baseball_draft_helper" target="_blank" rel="noopener noreferrer" class="project-detail-link">
             View on GitHub
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-          </span>
+          </a>
         </div>
-      </a>
-
-      <div class="project-card reveal">
-        <div class="project-card-inner">
-          <div class="project-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-          </div>
-          <h3 class="project-name">Fantasy Baseball Assistant</h3>
-          <p class="project-desc">Conversational AI assistant combined with live stats and analytics for fantasy baseball. Handles trade analysis, player projections, league standings, and strategic advice.</p>
-          <div class="tech-tags">
-            <span class="tag">Python</span>
-            <span class="tag">AI/ML</span>
-            <span class="tag">APIs</span>
-          </div>
+        <p class="project-detail-desc">A local web application built to dominate my fantasy baseball draft in the Bob Uecker Imaginary Baseball League. The app loads player projection CSVs and runs an AI-powered recommendation engine that scores every available player in real time. Recommendations are weighted across three factors: position scarcity (30%), team needs (30%), and projected statistical value (40%). The league runs rotisserie scoring with 13 teams, 23 roster spots per team, and specific position requirements (C, 1B, 2B, 3B, SS, MI, CI, 4 OF, U, 9 P). Batting categories include HR, OBP, R, RBI, and SB. Pitching categories include ERA, K, SV, WHIP, and WQS. The frontend updates in real time as picks happen, with search, filtering, color-coded recommendations, and auto-saved draft state.</p>
+        <div class="tech-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Flask</span>
+          <span class="tag">NumPy/Pandas</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML/CSS</span>
         </div>
       </div>
 
-      <div class="project-card reveal">
-        <div class="project-card-inner">
-          <div class="project-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <h3 class="project-name">OpenClaw on Cloudflare</h3>
-          <p class="project-desc">Deployed and configured OpenClaw, a personal AI agent, on Cloudflare Workers with Sandbox containers, R2 persistent storage, and Zero Trust access controls.</p>
-          <div class="tech-tags">
-            <span class="tag">Cloudflare Workers</span>
-            <span class="tag">Docker</span>
-            <span class="tag">R2</span>
-            <span class="tag">Zero Trust</span>
-          </div>
+      <!-- Fantasy Baseball Assistant -->
+      <div class="project-detail reveal">
+        <div class="project-detail-header">
+          <h3 class="project-detail-name">Fantasy Baseball Assistant</h3>
+        </div>
+        <p class="project-detail-desc">A conversational AI assistant paired with live stats and analytics for fantasy baseball. Handles trade evaluations by comparing player projections and positional value, surfaces league standings and matchup data, and provides strategic advice for waiver wire pickups, lineup optimization, and start/sit decisions. Pulls live data from baseball stats APIs and combines it with an LLM layer for natural language interaction.</p>
+        <div class="tech-tags">
+          <span class="tag">Python</span>
+          <span class="tag">LLM/AI</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">Data Analysis</span>
         </div>
       </div>
 
-      <div class="project-card reveal">
-        <div class="project-card-inner">
-          <div class="project-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-          </div>
-          <h3 class="project-name">Personal Finance Assistant</h3>
-          <p class="project-desc">Investment tracking tool for monitoring portfolio performance, stock prices, and allocation. Built for personal use to consolidate positions and track returns over time.</p>
-          <div class="tech-tags">
-            <span class="tag">Python</span>
-            <span class="tag">APIs</span>
-            <span class="tag">Data Viz</span>
-          </div>
+      <!-- OpenClaw on Cloudflare -->
+      <div class="project-detail reveal">
+        <div class="project-detail-header">
+          <h3 class="project-detail-name">OpenClaw on Cloudflare</h3>
+        </div>
+        <p class="project-detail-desc">Deployed and configured OpenClaw, an autonomous personal AI agent, on Cloudflare's edge infrastructure. The agent runs inside a Cloudflare Sandbox container, an isolated ephemeral micro-VM that prevents RCE risk. Persistent memory and conversation history are stored in Cloudflare R2. The admin interface is locked behind Cloudflare Access with Zero Trust authentication (JWT validation, identity provider integration). Set up the Anthropic API key routing through Cloudflare AI Gateway for caching, analytics, and provider flexibility. Tuned the instance type and sleep timers for cost optimization. The entire setup runs on Cloudflare Workers for about $5/month with no VPS or local hardware required.</p>
+        <div class="tech-tags">
+          <span class="tag">Cloudflare Workers</span>
+          <span class="tag">Sandbox Containers</span>
+          <span class="tag">R2 Storage</span>
+          <span class="tag">Zero Trust</span>
+          <span class="tag">AI Gateway</span>
+          <span class="tag">Docker</span>
         </div>
       </div>
+
+      <!-- Personal Finance Assistant -->
+      <div class="project-detail reveal">
+        <div class="project-detail-header">
+          <h3 class="project-detail-name">Personal Finance Assistant</h3>
+        </div>
+        <p class="project-detail-desc">An investment tracking tool built for personal use. Consolidates positions across multiple brokerage accounts into a single view. Pulls live stock and ETF prices from financial APIs to calculate real-time portfolio value, allocation percentages, and returns over custom time periods. Tracks cost basis, unrealized gains/losses, and dividend income. Built to replace spreadsheet tracking with something that updates automatically and surfaces the data that matters.</p>
+        <div class="tech-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Financial APIs</span>
+          <span class="tag">Data Visualization</span>
+          <span class="tag">Automation</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
